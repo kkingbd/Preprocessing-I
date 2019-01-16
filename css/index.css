@@ -130,7 +130,112 @@ table {
 * {
   box-sizing: border-box;
 }
-html,
 body {
   height: 100%;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  background: white;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-item: space-between;
+  padding: 0%;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav a {
+  padding: 0% 2%;
+  margin: 1% 0% 0 0;
+}
+.top-section img {
+  margin: 3% 0% 1% 3%;
+}
+.top-section {
+  background: pink;
+  display: inline-block;
+  line-height: 150%;
+  margin: 2% 0 2% 0%;
+}
+.top-section h1 {
+  font-size: 200%;
+  margin-left: 3%;
+  padding-bottom: 1%;
+}
+.top-section p {
+  font-size: 100%;
+  margin-left: 3%;
+  padding-bottom: 2%;
+}
+.top-section button {
+  padding: 0.5%;
+  border-radius: 10%;
+  border: 1px solid navy;
+  cursor: pointer;
+  background: grey;
+  margin: 0% 0% 5% 3%;
+  color: white;
+}
+.mid-section {
+  background: #FFFBFB;
+  display: flex;
+  line-height: 150%;
+  margin: 2% 0 2% 0%;
+}
+.mid-section table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+.mid-section table tr {
+  text-align: left;
+}
+.mid-section .mid-container {
+  width: 100%;
+  display: inline-block;
+}
+.mid-section .mid-container h1 {
+  font-size: 200%;
+  margin: 5% 0;
+}
+.mid-section .mid-container p {
+  font-size: 100%;
+}
+.last-section {
+  display: block;
+}
+.last-section h1 {
+  font-size: 200%;
+  padding: 2% 0;
+}
+.last-section table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 2% 0;
+}
+.last-section table th,
+.last-section table td {
+  border-top: 1px solid #dddddd;
+  text-align: left;
+  padding: 1%;
+}
+.last-section table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+  background: grey;
+  padding: 3% 0;
+  margin: 5% 0%;
 }
